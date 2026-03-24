@@ -146,7 +146,8 @@ gooeyToast.dismiss({ type: ['error', 'warning'] })
 gooeyToast.dismiss()
 ```
 
-### `GooeyToastOptions`
+###showTimestamp`| `boolean`           | Show/hide timestamp in toast header/body (default `true`) |
+| ` `GooeyToastOptions`
 
 Options passed as the second argument to `gooeyToast()` and type-specific methods.
 
