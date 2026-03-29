@@ -1267,7 +1267,7 @@ export const GooeyToast: FC<GooeyToastProps> = ({
 
         {/* Body toasts without description: timestamp on its own line */}
         <AnimatePresence>
-          {showBody && !hasDescription && hasAction && !dismissing && (
+          {showBody && !hasDescription && hasAction && !dismissing && showTimestamp && (
             <motion.div
               key="timestamp-body"
               className={styles.timestamp}
